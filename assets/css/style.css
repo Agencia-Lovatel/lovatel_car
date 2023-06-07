@@ -1,0 +1,271 @@
+/* 
+    ---------------------------------------------
+    Created and updated by
+    Fernanda "Wolf Krauser" Behrend
+    fernanda.behrend1203@gmail.com
+
+    CSS last modified: 27/01/2023
+    ---------------------------------------------
+*/
+
+@import url("reset.css");
+@import url("themecolors.css");
+/* fade-in pages */
+body{	
+    animation: fadein 1s; /* PadrÃ£o */
+    -webkit-animation: fadein 1s; /* Webkit */
+    -moz-animation: fadein 1s; /* Firefox */
+    -ms-animation: fadein 1s; /* IE */
+}
+@keyframes fadein {
+    from { opacity: 0.4; }
+    to { opacity: 1; } /* PadrÃ£o */
+}
+@-moz-keyframes fadein {
+    from { opacity: 0.4; }
+    to { opacity: 1; } /* Firefox */
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0.4; }
+    to { opacity: 1; } /* Webkit */
+}
+@-ms-keyframes fadein {
+    from { opacity: 0.4; }
+    to { opacity: 1; } /* IE */
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+/* HEADER */
+header{
+    background: #544a86;
+    padding: 25px 20px;
+    width: 100%;
+    z-index: 200;
+
+    transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+}
+
+.logoH{
+    width: fit-content;
+    width: -moz-fit-content;
+    height: fit-content;
+    height: -moz-fit-content;
+    margin: 0 auto;
+}
+.logoH img{
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+
+    transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+}
+
+
+/* Veículos */
+#form_filter{
+    width: 100%;
+    max-width: 1000px;
+    height: available;
+    height: fit-content;
+    margin: 0 auto 40px auto;
+}
+
+#form_filter select,
+#form_filter button{
+    width: 24%;
+}
+#form_filter select{
+    padding: 10px 15px;
+    font-size: 15px;
+    color: #000;
+    background: #fff url('../img/dropdown.svg') no-repeat center right 10px;
+    margin-bottom: 0;
+}
+#form_filter .button{
+    padding: 10px 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #544a86;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.itemVeiculo{
+    border-radius: 0 0 10px 10px;
+    overflow: hidden;
+    border: 2px solid #eee;
+}
+.imgVeiculo{
+    height: fit-content;
+    height: -moz-fit-content;
+    overflow: hidden;
+}
+.imgVeiculo img{
+    width: 100%;
+    height: 100%;
+
+    transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+}
+.itemVeiculo:hover .imgVeiculo img{
+    transform: scale(1.1);
+}
+
+.descItemVeiculo{
+    padding: 25px 20px;
+    background: #eee;
+}
+.descItemVeiculo h6{
+    margin-bottom: 5px;
+}
+.descItemVeiculo .ano{
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.descItemVeiculo .preco{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000;
+}
+.itemVeiculo:hover{
+    border-color: #544a86;
+}
+
+
+/* FOOTER */
+footer{
+    padding: 20px 20px;
+    background: #eee;
+}
+footer p{
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+
+/* Veículos detalhes */
+.sliderVeiculo{
+    width: 45%;
+    height: fit-content;
+    height: -moz-fit-content;
+}
+.sliderVeiculo a{
+    overflow: hidden;
+    height: fit-content;
+    height: -moz-fit-content;
+}
+.sliderVeiculo a img{
+    width: 100%;
+    height: 100%;
+
+    transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+}
+.sliderVeiculo a:hover img{
+    transform: scale(1.1);
+}
+
+.descricaoVeiculo{
+    width: 48%;
+    padding: 20px;
+    border-radius: 0 10px 10px 0;
+    background: #eee;
+}
+.descricaoVeiculo .ano{
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.descricaoVeiculo .preco{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.descricaoVeiculo p{
+    text-align: justify;
+}
+
+.formulario{
+    padding: 30px;
+    background: #a0d2f1;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+#form_contact{
+    width: 100%;
+    height: available;
+    height: fit-content;
+}
+#form_contact .input{
+    padding: 10px 15px;
+    font-size: 15px;
+    color: #000;
+    background: #fff;
+    border: none;
+}
+#form_contact select{
+    background: #fff url('../img/dropdown.svg') no-repeat center right 10px !important;
+}
+#form_contact .f_input{
+    width: 100%;
+}
+#form_contact .msg{
+    width: 100%;
+    min-height: 100px;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+#form_contact textarea{
+    overflow: hidden;
+}
+#form_contact .button{
+    cursor: pointer;
+    color: #fff;
+    background: #544a86;
+    font-size: 15px;
+    padding: 10px 30px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+}
+::-webkit-input-placeholder {
+    color: #000;
+} 
+:-moz-placeholder { /* Firefox 18- */
+    color: #000;  
+} 
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #000;  
+} 
+:-ms-input-placeholder {  
+    color: #000;  
+}
+
+.btnVoltar{
+    width: fit-content;
+    width: -moz-fit-content;
+    margin: 40px auto 0 auto;
+    background: #544a86;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+}

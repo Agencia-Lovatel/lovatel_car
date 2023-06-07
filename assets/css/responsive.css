@@ -1,0 +1,66 @@
+/* Veículos */
+@media screen and (max-width: 780px){
+    #form_filter select,
+    #form_filter .button{
+        width: 49%;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .gridVeiculos{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width: 480px){
+    #form_filter select,
+    #form_filter .button{
+        width: 100%;
+    }
+
+    .gridVeiculos{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+
+/* Veículos Detalhes */
+@media screen and (max-width: 900px){
+    .descricaoVeiculo{
+        width: 100%;
+        order: 1;
+        height: fit-content;
+        height: -moz-fit-content;
+        margin-bottom: 30px;
+    }
+
+    .sliderVeiculo{
+        width: 100%;
+        order: 2;
+    }
+
+    .formulario{
+        order: 3;
+    }
+
+    .btnVoltar{
+        order: 4;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .formulario{
+        padding: 20px 10px;
+    }
+    .formulario h4{
+        margin-bottom: 10px;
+    }
+    #form_contact .e_input,
+    #form_contact .button{
+        width: 100%;
+    }
+    #form_contact .button{
+        margin-top: 5px;
+    }
+}

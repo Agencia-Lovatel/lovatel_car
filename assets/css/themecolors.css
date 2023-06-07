@@ -1,0 +1,149 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1,h2,h3,h4,h5,h6{font-family:'Ubuntu',sans-serif;}
+a,span,p,select,button,input,textarea,li,table{font-family:'Montserrat',sans-serif;}
+p{
+    font-size: 15px;
+    color: #000;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+p:last-child{margin-bottom:0px;}
+
+.main-t{
+    font-size: 25px;
+    line-height: 30px;
+
+    transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+}
+.sub-t{
+    font-size: 18px;
+    line-height: 23px;
+
+    transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+}
+
+.blackFont{
+    color: #000;
+}
+.blueFont{
+    color: #a0d2f1;
+}
+.purpleFont{
+    color: #544a86;
+}
+.whiteFont{
+    color: #fff;
+}
+
+.margin50{
+    margin-bottom: 50px;
+}
+.margin40{
+    margin-bottom: 40px;
+}
+.margin30{
+    margin-bottom: 30px;
+}
+.margin20{
+    margin-bottom: 20px;
+}
+.margin15{
+    margin-bottom: 15px;
+}
+.margin10{
+    margin-bottom: 10px;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.black{
+    font-weight: 900;
+}
+.bold,
+strong{
+    font-weight:bold;
+}
+.extrabold{
+    font-weight: 800;
+}
+.italic{
+    font-style: italic;
+}
+.light{
+    font-weight: 300;
+}
+.medium{
+    font-weight: 500;
+}
+.normal{
+    font-weight: 400;
+}
+.semibold{
+    font-weight: 600;
+}
+
+html,
+body{background: #fff;}
+
+.input{background: #fff;}
+.input{border: 1px solid #ddd;}
+
+#pagination ul li a{
+    color: #999;
+    border: 2px solid #ddd;
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    min-height: 40px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pagination ul li:hover a,
+#pagination ul li.ativo a{
+    color: #fff;
+    background: #999;
+}
+
+.social-box a{
+    border: 2px solid #555;
+}
+
+#menu .dl-menu > li:hover > a,
+#menu .dl-menu > li.ativo > a{
+    color: #fff;
+    background: #000;
+}
+
+.fullW{
+    width: 100%;
+}
+
+.zoomEfct{
+    transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+}
+.zoomEfct:hover{
+    transform: scale(0.8);
+}
+
+/* ÍCONES VERSÃO 6.1.2
+    PARA TELEFONE  -> <i class="fa-solid fa-phone"></i>
+    PARA WHATSAPP  -> <i class="fa-brands fa-whatsapp"></i>
+    PARA FACEBOOK  -> <i class="fa-brands fa-facebook-f"></i>
+    PARA TWITTER   -> <i class="fa-brands fa-twitter"></i>
+    PARA INSTAGRAM -> <i class="fa-brands fa-instagram"></i>
+    PARA E-MAIL    -> <i class="fa-solid fa-envelope"></i>
+    PARA ENDEREÇO  -> <i class="fa-solid fa-location-pin"></i>
+*/
