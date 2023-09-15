@@ -82,11 +82,11 @@ header{
 #form_filter button{
     width: 24%;
 }
-#form_filter select{
+#form_filter .s_input{
     padding: 10px 15px;
     font-size: 15px;
     color: #000;
-    background: #fff url('../img/dropdown.svg') no-repeat center right 10px;
+    background: #fff;
     margin-bottom: 0;
 }
 #form_filter .button{
@@ -97,6 +97,7 @@ header{
     background: #544a86;
     color: #fff;
     text-transform: uppercase;
+    margin-bottom: 0;
 }
 
 .itemVeiculo{

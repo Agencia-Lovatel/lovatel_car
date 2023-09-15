@@ -1,6 +1,6 @@
 /* Veículos */
 @media screen and (max-width: 780px){
-    #form_filter select,
+    #form_filter .s_input,
     #form_filter .button{
         width: 49%;
         margin-top: 5px;
@@ -14,7 +14,7 @@
 }
 
 @media screen and (max-width: 480px){
-    #form_filter select,
+    #form_filter .s_input,
     #form_filter .button{
         width: 100%;
     }

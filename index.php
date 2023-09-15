@@ -18,17 +18,11 @@
                 <input name="check_1" type="hidden" value="">
                 <input style="position: absolute; width: 1px; top: -5000px; left: -5000px;" name="check_2" type="text">
 
-                <select name="marca" class="input s_input" required>
-                    <option value="">Marca:</option>
-                </select>
+                <input type="text" name="pesquisa" class="input s_input" placeholder="Pesquisar veículo:">
 
-                <select name="modelo" class="input s_input" required>
-                    <option value="">Modelo:</option>
-                </select>
+                <input type="text" name="valorMin" class="input s_input" placeholder="Valor mínimo:">
 
-                <select name="ano" class="input s_input" required>
-                    <option value="">Ano:</option>
-                </select>
+                <input type="text" name="valorMax" class="input s_input" placeholder="Valor máximo:">
 
                 <button type="submit" class="button">Filtrar</button>
 
